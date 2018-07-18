@@ -1,0 +1,50 @@
+body {
+  background: rgb(214, 226, 211);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  text-align: center
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#butt {
+  height: 30px;
+  width: 90px;
+}
+#result {
+  color: #000;
+  background: #fff;
+  border-radius: 2px;
+  padding: 5px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid rgb(14, 5, 5);
+  margin: 5px 0 5px 10px;
+  padding: 5px;
+}
+
+input:after {
+  box-shadow: 0;
+}
+
+.button {
+  width: 180px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper:last-child {
+  flex-direction: column;
+  text-align: center;
+}
